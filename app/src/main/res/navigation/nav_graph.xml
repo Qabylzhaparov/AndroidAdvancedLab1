@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.lab1.fragment.HomeFragment"
+        android:label="Home" />
+
+    <fragment
+        android:id="@+id/intentFragment"
+        android:name="com.example.lab1.fragment.IntentFragment"
+        android:label="Intent/Deeplink" />
+
+    <fragment
+        android:id="@+id/foregroundFragment"
+        android:name="com.example.lab1.fragment.ForegroundFragment"
+        android:label="Foreground Service" />
+
+    <fragment
+        android:id="@+id/broadcastFragment"
+        android:name="com.example.lab1.fragment.BroadcastFragment"
+        android:label="Broadcast Receiver" />
+
+    <fragment
+        android:id="@+id/contentFragment"
+        android:name="com.example.lab1.fragment.ContentFragment"
+        android:label="Content Provider" />
+
+</navigation>
